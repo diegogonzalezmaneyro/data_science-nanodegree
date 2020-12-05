@@ -1,6 +1,7 @@
 <p align="center">
   <img src="udacity_logo.png" width="300" title="syllabus logo">
 </p>
+
 # Data Science Nanodegree
 
 The ultimate goal of the Data Scientist Nanodegree program is learn the skills to perform well as a data scientist. As a graduate of this program, you will be able to:
