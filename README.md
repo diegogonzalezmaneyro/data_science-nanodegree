@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="udacity_logo.png" width="300" title="syllabus logo">
+</p>
 # Data Science Nanodegree
 
 The ultimate goal of the Data Scientist Nanodegree program is learn the skills to perform well as a data scientist. As a graduate of this program, you will be able to:
@@ -5,6 +8,10 @@ The ultimate goal of the Data Scientist Nanodegree program is learn the skills t
 * Use principles of statistics and probability to design and execute A/B tests and recommendation engines to assist businesses in making data-automated decisions..
 * Deploy a data science solution to a basic flask app.
 * Manipulate and analyze distributed datasets using Apache Spark. • Communicate results effectively to stakeholders.
+
+<p align="center">
+  <img src="collaborators.png" width="300" title="collaborators">
+</p>
 
 ## Run
 
