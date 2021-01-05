@@ -29,7 +29,17 @@ Sklearn does not know how you want to treat missing values or categorical variab
 
 Three strategies for working with missing values include:
 
-* We can remove (or “drop”) the rows or columns holding the missing values.
+## 3.1. We can remove (or “drop”) the rows or columns holding the missing values.
+Though dropping rows and/or columns holding missing values is quite easy to do using numpy and pandas, it is often not appropriate.
+
+Understanding why the data is missing is important before dropping these rows and columns. In this video you saw a number of situations in which dropping values was not a good idea. These included
+
+Dropping data values associated with the effort or time an individual put into a survey.
+Dropping data values associated with sensitive information.
+In either of these cases, the missing values hold information. A quick removal of the rows or columns associated with these missing values would remove missing data that could be used to better inform models.
+
+Instead of removing these values, we might keep track of the missing values using indicator values, or counts associated with how many questions an individual skipped.
+
 * We can impute the missing values.
 * We can build models that work around them, and only use the information provided.
 
