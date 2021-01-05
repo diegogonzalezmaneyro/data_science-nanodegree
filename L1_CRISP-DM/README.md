@@ -17,6 +17,8 @@ At this step, you need to move the questions from Business Understanding to data
 In this case, you will be using the Stackoverflow survey data to get some insight into each of these questions. In the rest of the lesson, you can work along with me to answer these questions, or you can take your own approach to see if the conclusions you draw are similar to those you would find throughout this lesson.
 
 ## 3. Prepare Data
+
+For Data Wrangling there are some good tips in that section [here](https://chrisalbon.com/)
 Luckily stackoverflow has already collected the data for us. However, we still need to wrangle the data in a way for us to answer our questions. The wrangling and cleaning process is said to take 80% of the time of the data analysis process. You will see that will hold true through this lesson, as a majority of the remaining parts of this lesson will be around basic data wrangling strategies.
 
 We will discuss the advantages and disadvantages of the strategies discussed in this lesson
@@ -29,7 +31,7 @@ Sklearn does not know how you want to treat missing values or categorical variab
 
 Three strategies for working with missing values include:
 
-## 3.1. We can remove (or “drop”) the rows or columns holding the missing values.
+### 3.1. We can remove (or “drop”) the rows or columns holding the missing values.
 Though dropping rows and/or columns holding missing values is quite easy to do using numpy and pandas, it is often not appropriate.
 
 Understanding why the data is missing is important before dropping these rows and columns. In this video you saw a number of situations in which dropping values was not a good idea. These included
@@ -40,8 +42,8 @@ In either of these cases, the missing values hold information. A quick removal o
 
 Instead of removing these values, we might keep track of the missing values using indicator values, or counts associated with how many questions an individual skipped.
 
-* We can impute the missing values.
-* We can build models that work around them, and only use the information provided.
+### 3.2. We can impute the missing values.
+### 3.3. We can build models that work around them, and only use the information provided.
 
 ## 4. Data Modeling
 
