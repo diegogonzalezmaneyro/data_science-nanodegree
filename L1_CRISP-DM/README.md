@@ -21,6 +21,18 @@ Luckily stackoverflow has already collected the data for us. However, we still n
 
 We will discuss the advantages and disadvantages of the strategies discussed in this lesson
 
+There are two main 'pain' points for passing data to machine learning models in sklearn:
+
+* Missing Values
+* Categorical Values
+Sklearn does not know how you want to treat missing values or categorical variables, and there are lots of methods for working with each. For this lesson, we will look at common, quick fixes. These methods help you get your models into production quickly, but thoughtful treatment of missing values and categorical variables should be done to remove bias and improve predictions over time.
+
+Three strategies for working with missing values include:
+
+* We can remove (or “drop”) the rows or columns holding the missing values.
+* We can impute the missing values.
+* We can build models that work around them, and only use the information provided.
+
 ## 4. Data Modeling
 
 ## 5. Evaluate the Results
