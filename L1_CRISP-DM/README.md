@@ -50,7 +50,7 @@ There are many advanced techniques for imputing missing values including using m
 Regardless your imputation approach, you should be very cautious of the BIAS you are imputing into any model that uses these imputed values. Though imputing values is very common, and often leads to better predictive power in machine learning models, it can lead to over generalizations. In extremely advanced techniques in Data Science, this can even mean ethical implications. Machines can only 'learn' from the data they are provided. If you provide biased data (due to imputation, poor data collection, etc.), it should be no surprise, you will achieve results that are biased.
 
 * Impute the mean of a column.
-* If you are working with categorical data or a variable with outliers, then use the mode of the column.
+* If you are working with categorical data or a variable with outliers, then use the mode of the column. Also to work with categorical data when there are only a few values you can choose [this](https://pbpython.com/categorical-encoding.html)
 * Impute 0, a very small number, or a very large number to differentiate missing values from other values.
 * Use knn to impute values based on features that are most similar.
 
