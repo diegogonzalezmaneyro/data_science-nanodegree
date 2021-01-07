@@ -43,6 +43,19 @@ In either of these cases, the missing values hold information. A quick removal o
 Instead of removing these values, we might keep track of the missing values using indicator values, or counts associated with how many questions an individual skipped.
 
 ### 3.2. We can impute the missing values.
+Imputation is likely the most common method for working with missing values for any data science team. The methods shown here included the frequently used methods of imputing the mean, median, or mode of a column into the missing values for the column.
+
+There are many advanced techniques for imputing missing values including using machine learning and bayesian statistical approaches. This could be techniques as simple as using k-nearest neighbors to find the features that are most similar, and using the values those features have to fill in values that are missing or complex methods like those in the very popular AMELIA library.
+
+Regardless your imputation approach, you should be very cautious of the BIAS you are imputing into any model that uses these imputed values. Though imputing values is very common, and often leads to better predictive power in machine learning models, it can lead to over generalizations. In extremely advanced techniques in Data Science, this can even mean ethical implications. Machines can only 'learn' from the data they are provided. If you provide biased data (due to imputation, poor data collection, etc.), it should be no surprise, you will achieve results that are biased.
+
+* Impute the mean of a column.
+* If you are working with categorical data or a variable with outliers, then use the mode of the column.
+* Impute 0, a very small number, or a very large number to differentiate missing values from other values.
+* Use knn to impute values based on features that are most similar.
+
+Chris' content is again very helpful for many of these items. He uses the [sklearn.preprocessing library](https://scikit-learn.org/stable/modules/preprocessing.html). There are also a ton of ways to fill in missing values directly using pandas, which can be found [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html)
+
 ### 3.3. We can build models that work around them, and only use the information provided.
 
 ## 4. Data Modeling
