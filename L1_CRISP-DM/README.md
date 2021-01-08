@@ -57,11 +57,21 @@ Regardless your imputation approach, you should be very cautious of the BIAS you
 Chris' content is again very helpful for many of these items. He uses the [sklearn.preprocessing library](https://scikit-learn.org/stable/modules/preprocessing.html). There are also a ton of ways to fill in missing values directly using pandas, which can be found [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html)
 
 ### 3.3. We can build models that work around them, and only use the information provided.
+By droping all the missing data you can work around with the dataset, but it's really important that if you don't have enough data this may be lead to bad results
 
 ## 4. Data Modeling
+In the 'putting all together' notebook you can find like the last iteration of all the process, but it's really important to understand that this is a cycle process and maybe you can find new ways to clean and prepare the data to get better or different results
 
 ## 5. Evaluate the Results
+Results are the findings from our wrangling and modeling. They are the answers you found to each of the questions.
 
 ## 6. Deploy
+Two techniques for deploying your results include:
 
+Automated techniques built into computer systems or across the web. You will do this later in this program!
+
+Communicate results with text, images, slides, dashboards, or other presentation methods to company stakeholders.
+To get some practice with this second technique, you will be writing a blog post for the first project and turning in a Github repository that shares your work.
+
+As a data scientist, communication of your results to both other team members and to less technical members of a company is a critical component
 
