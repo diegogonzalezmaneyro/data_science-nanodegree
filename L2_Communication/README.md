@@ -1,3 +1,5 @@
+# Structure to create a README file. Check the entire content in the [Udacity lesson](https://classroom.udacity.com/nanodegrees/nd025/parts/5c671264-6d88-412d-bb3a-0c2e07a8b915/modules/2db8605d-db49-4fbe-b91a-93fce9f18641/lessons/6bcd069d-1762-416f-b752-e7e754671a35/concepts/5f1e2883-c071-4c4f-a1d2-2a0fe9651b13)
+
 ### Table of Contents
 
 1. [Installation](#installation)
